@@ -1,0 +1,999 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI Symbol";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p
+	{margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+code
+	{font-family:"Courier New";}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.whitespace-normal, li.whitespace-normal, div.whitespace-normal
+	{mso-style-name:whitespace-normal;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US>
+
+<div class=WordSection1>
+
+<p class=MsoNormal>&lt;!DOCTYPE html&gt;</p>
+
+<p class=MsoNormal>&lt;html lang=&quot;en&quot;&gt;</p>
+
+<p class=MsoNormal>&lt;head&gt;</p>
+
+<p class=MsoNormal>    &lt;meta charset=&quot;UTF-8&quot;&gt;</p>
+
+<p class=MsoNormal>    &lt;meta name=&quot;viewport&quot;
+content=&quot;width=device-width, initial-scale=1.0&quot;&gt;</p>
+
+<p class=MsoNormal>    &lt;title&gt;Techno Avnesh - Your Tech Hub&lt;/title&gt;</p>
+
+<p class=MsoNormal>    &lt;style&gt;</p>
+
+<p class=MsoNormal>        * {</p>
+
+<p class=MsoNormal>            margin: 0;</p>
+
+<p class=MsoNormal>            padding: 0;</p>
+
+<p class=MsoNormal>            box-sizing: border-box;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        body {</p>
+
+<p class=MsoNormal>            font-family: 'Segoe UI', Tahoma, Geneva,
+Verdana, sans-serif;</p>
+
+<p class=MsoNormal>            background: linear-gradient(135deg, #0a0e27 0%,
+#1a1f3a 100%);</p>
+
+<p class=MsoNormal>            color: #fff;</p>
+
+<p class=MsoNormal>            overflow-x: hidden;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .header {</p>
+
+<p class=MsoNormal>            background: rgba(0, 0, 0, 0.5);</p>
+
+<p class=MsoNormal>            backdrop-filter: blur(10px);</p>
+
+<p class=MsoNormal>            padding: 20px 0;</p>
+
+<p class=MsoNormal>            position: fixed;</p>
+
+<p class=MsoNormal>            width: 100%;</p>
+
+<p class=MsoNormal>            top: 0;</p>
+
+<p class=MsoNormal>            z-index: 1000;</p>
+
+<p class=MsoNormal>            border-bottom: 2px solid #00ff88;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .container {</p>
+
+<p class=MsoNormal>            max-width: 1200px;</p>
+
+<p class=MsoNormal>            margin: 0 auto;</p>
+
+<p class=MsoNormal>            padding: 0 20px;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .header-content {</p>
+
+<p class=MsoNormal>            display: flex;</p>
+
+<p class=MsoNormal>            justify-content: space-between;</p>
+
+<p class=MsoNormal>            align-items: center;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .logo {</p>
+
+<p class=MsoNormal>            font-size: 28px;</p>
+
+<p class=MsoNormal>            font-weight: bold;</p>
+
+<p class=MsoNormal>            background: linear-gradient(45deg, #00ff88,
+#00d4ff);</p>
+
+<p class=MsoNormal>            -webkit-background-clip: text;</p>
+
+<p class=MsoNormal>            -webkit-text-fill-color: transparent;</p>
+
+<p class=MsoNormal>            text-shadow: 0 0 30px rgba(0, 255, 136, 0.5);</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .nav a {</p>
+
+<p class=MsoNormal>            color: #fff;</p>
+
+<p class=MsoNormal>            text-decoration: none;</p>
+
+<p class=MsoNormal>            margin-left: 30px;</p>
+
+<p class=MsoNormal>            transition: color 0.3s;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .nav a:hover {</p>
+
+<p class=MsoNormal>            color: #00ff88;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .hero {</p>
+
+<p class=MsoNormal>            margin-top: 100px;</p>
+
+<p class=MsoNormal>            padding: 80px 20px;</p>
+
+<p class=MsoNormal>            text-align: center;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .hero h1 {</p>
+
+<p class=MsoNormal>            font-size: 56px;</p>
+
+<p class=MsoNormal>            margin-bottom: 20px;</p>
+
+<p class=MsoNormal>            animation: glow 2s ease-in-out infinite
+alternate;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        @keyframes glow {</p>
+
+<p class=MsoNormal>            from { text-shadow: 0 0 20px #00ff88, 0 0 30px
+#00ff88; }</p>
+
+<p class=MsoNormal>            to { text-shadow: 0 0 30px #00ff88, 0 0 40px
+#00ff88, 0 0 50px #00ff88; }</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .hero p {</p>
+
+<p class=MsoNormal>            font-size: 20px;</p>
+
+<p class=MsoNormal>            color: #aaa;</p>
+
+<p class=MsoNormal>            margin-bottom: 40px;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .cta-button {</p>
+
+<p class=MsoNormal>            display: inline-block;</p>
+
+<p class=MsoNormal>            padding: 15px 40px;</p>
+
+<p class=MsoNormal>            background: linear-gradient(45deg, #00ff88,
+#00d4ff);</p>
+
+<p class=MsoNormal>            color: #0a0e27;</p>
+
+<p class=MsoNormal>            text-decoration: none;</p>
+
+<p class=MsoNormal>            border-radius: 50px;</p>
+
+<p class=MsoNormal>            font-weight: bold;</p>
+
+<p class=MsoNormal>            font-size: 18px;</p>
+
+<p class=MsoNormal>            transition: transform 0.3s, box-shadow 0.3s;</p>
+
+<p class=MsoNormal>            box-shadow: 0 0 20px rgba(0, 255, 136, 0.5);</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .cta-button:hover {</p>
+
+<p class=MsoNormal>            transform: translateY(-3px);</p>
+
+<p class=MsoNormal>            box-shadow: 0 0 30px rgba(0, 255, 136, 0.8);</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .section {</p>
+
+<p class=MsoNormal>            padding: 60px 20px;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .section-title {</p>
+
+<p class=MsoNormal>            font-size: 42px;</p>
+
+<p class=MsoNormal>            text-align: center;</p>
+
+<p class=MsoNormal>            margin-bottom: 50px;</p>
+
+<p class=MsoNormal>            background: linear-gradient(45deg, #00ff88,
+#00d4ff);</p>
+
+<p class=MsoNormal>            -webkit-background-clip: text;</p>
+
+<p class=MsoNormal>            -webkit-text-fill-color: transparent;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .video-grid {</p>
+
+<p class=MsoNormal>            display: grid;</p>
+
+<p class=MsoNormal>            grid-template-columns: repeat(auto-fit,
+minmax(320px, 1fr));</p>
+
+<p class=MsoNormal>            gap: 30px;</p>
+
+<p class=MsoNormal>            margin-bottom: 40px;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .video-card {</p>
+
+<p class=MsoNormal>            background: rgba(255, 255, 255, 0.05);</p>
+
+<p class=MsoNormal>            border-radius: 15px;</p>
+
+<p class=MsoNormal>            overflow: hidden;</p>
+
+<p class=MsoNormal>            transition: transform 0.3s, box-shadow 0.3s;</p>
+
+<p class=MsoNormal>            border: 1px solid rgba(0, 255, 136, 0.2);</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .video-card:hover {</p>
+
+<p class=MsoNormal>            transform: translateY(-10px);</p>
+
+<p class=MsoNormal>            box-shadow: 0 10px 30px rgba(0, 255, 136, 0.3);</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .video-card iframe {</p>
+
+<p class=MsoNormal>            width: 100%;</p>
+
+<p class=MsoNormal>            height: 200px;</p>
+
+<p class=MsoNormal>            border: none;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .video-info {</p>
+
+<p class=MsoNormal>            padding: 20px;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .video-info h3 {</p>
+
+<p class=MsoNormal>            font-size: 18px;</p>
+
+<p class=MsoNormal>            margin-bottom: 10px;</p>
+
+<p class=MsoNormal>            color: #00ff88;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .playlist-section {</p>
+
+<p class=MsoNormal>            background: rgba(0, 0, 0, 0.3);</p>
+
+<p class=MsoNormal>            padding: 60px 20px;</p>
+
+<p class=MsoNormal>            margin: 40px 0;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .playlist-grid {</p>
+
+<p class=MsoNormal>            display: grid;</p>
+
+<p class=MsoNormal>            grid-template-columns: repeat(auto-fit,
+minmax(280px, 1fr));</p>
+
+<p class=MsoNormal>            gap: 25px;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .playlist-card {</p>
+
+<p class=MsoNormal>            background: linear-gradient(135deg, rgba(0, 255,
+136, 0.1), rgba(0, 212, 255, 0.1));</p>
+
+<p class=MsoNormal>            border-radius: 15px;</p>
+
+<p class=MsoNormal>            padding: 25px;</p>
+
+<p class=MsoNormal>            border: 2px solid rgba(0, 255, 136, 0.3);</p>
+
+<p class=MsoNormal>            transition: all 0.3s;</p>
+
+<p class=MsoNormal>            cursor: pointer;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .playlist-card:hover {</p>
+
+<p class=MsoNormal>            transform: scale(1.05);</p>
+
+<p class=MsoNormal>            border-color: #00ff88;</p>
+
+<p class=MsoNormal>            box-shadow: 0 0 25px rgba(0, 255, 136, 0.4);</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .playlist-card h3 {</p>
+
+<p class=MsoNormal>            color: #00ff88;</p>
+
+<p class=MsoNormal>            margin-bottom: 15px;</p>
+
+<p class=MsoNormal>            font-size: 22px;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .social-section {</p>
+
+<p class=MsoNormal>            text-align: center;</p>
+
+<p class=MsoNormal>            padding: 80px 20px;</p>
+
+<p class=MsoNormal>            background: linear-gradient(135deg, rgba(0, 255,
+136, 0.05), rgba(0, 212, 255, 0.05));</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .social-grid {</p>
+
+<p class=MsoNormal>            display: grid;</p>
+
+<p class=MsoNormal>            grid-template-columns: repeat(auto-fit,
+minmax(200px, 1fr));</p>
+
+<p class=MsoNormal>            gap: 30px;</p>
+
+<p class=MsoNormal>            max-width: 1000px;</p>
+
+<p class=MsoNormal>            margin: 0 auto;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .social-card {</p>
+
+<p class=MsoNormal>            background: rgba(255, 255, 255, 0.05);</p>
+
+<p class=MsoNormal>            padding: 30px;</p>
+
+<p class=MsoNormal>            border-radius: 20px;</p>
+
+<p class=MsoNormal>            transition: all 0.3s;</p>
+
+<p class=MsoNormal>            border: 2px solid transparent;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .social-card:hover {</p>
+
+<p class=MsoNormal>            transform: translateY(-10px);</p>
+
+<p class=MsoNormal>            border-color: #00ff88;</p>
+
+<p class=MsoNormal>            box-shadow: 0 10px 30px rgba(0, 255, 136, 0.3);</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .social-icon {</p>
+
+<p class=MsoNormal>            font-size: 48px;</p>
+
+<p class=MsoNormal>            margin-bottom: 15px;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .social-card h3 {</p>
+
+<p class=MsoNormal>            color: #00ff88;</p>
+
+<p class=MsoNormal>            margin-bottom: 10px;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .social-card a {</p>
+
+<p class=MsoNormal>            color: #00d4ff;</p>
+
+<p class=MsoNormal>            text-decoration: none;</p>
+
+<p class=MsoNormal>            font-size: 14px;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .footer {</p>
+
+<p class=MsoNormal>            background: rgba(0, 0, 0, 0.5);</p>
+
+<p class=MsoNormal>            text-align: center;</p>
+
+<p class=MsoNormal>            padding: 30px 20px;</p>
+
+<p class=MsoNormal>            border-top: 2px solid #00ff88;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .stats {</p>
+
+<p class=MsoNormal>            display: flex;</p>
+
+<p class=MsoNormal>            justify-content: space-around;</p>
+
+<p class=MsoNormal>            margin: 60px 0;</p>
+
+<p class=MsoNormal>            flex-wrap: wrap;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .stat-item {</p>
+
+<p class=MsoNormal>            text-align: center;</p>
+
+<p class=MsoNormal>            padding: 20px;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .stat-number {</p>
+
+<p class=MsoNormal>            font-size: 48px;</p>
+
+<p class=MsoNormal>            font-weight: bold;</p>
+
+<p class=MsoNormal>            color: #00ff88;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        .stat-label {</p>
+
+<p class=MsoNormal>            font-size: 16px;</p>
+
+<p class=MsoNormal>            color: #aaa;</p>
+
+<p class=MsoNormal>            margin-top: 10px;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        @media (max-width: 768px) {</p>
+
+<p class=MsoNormal>            .hero h1 {</p>
+
+<p class=MsoNormal>                font-size: 36px;</p>
+
+<p class=MsoNormal>            }</p>
+
+<p class=MsoNormal>            .nav {</p>
+
+<p class=MsoNormal>                display: none;</p>
+
+<p class=MsoNormal>            }</p>
+
+<p class=MsoNormal>            .video-grid {</p>
+
+<p class=MsoNormal>                grid-template-columns: 1fr;</p>
+
+<p class=MsoNormal>            }</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>    &lt;/style&gt;</p>
+
+<p class=MsoNormal>&lt;/head&gt;</p>
+
+<p class=MsoNormal>&lt;body&gt;</p>
+
+<p class=MsoNormal>    &lt;header class=&quot;header&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;container&quot;&gt;</p>
+
+<p class=MsoNormal>            &lt;div class=&quot;header-content&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;logo&quot;&gt;<span
+style='font-family:"Segoe UI Symbol",sans-serif'>&#9889;</span> TECHNO
+AVNESH&lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;nav class=&quot;nav&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;a
+href=&quot;#videos&quot;&gt;Videos&lt;/a&gt;</p>
+
+<p class=MsoNormal>                    &lt;a
+href=&quot;#playlists&quot;&gt;Playlists&lt;/a&gt;</p>
+
+<p class=MsoNormal>                    &lt;a
+href=&quot;#connect&quot;&gt;Connect&lt;/a&gt;</p>
+
+<p class=MsoNormal>                &lt;/nav&gt;</p>
+
+<p class=MsoNormal>            &lt;/div&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;/header&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;section class=&quot;hero&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;container&quot;&gt;</p>
+
+<p class=MsoNormal>            &lt;h1&gt;Welcome to Techno Avnesh&lt;/h1&gt;</p>
+
+<p class=MsoNormal>            &lt;p&gt;Your Ultimate Tech Knowledge Hub |
+Learn, Explore, Master Technology&lt;/p&gt;</p>
+
+<p class=MsoNormal>            &lt;a
+href=&quot;https://www.youtube.com/@TechnoAvnesh&quot;
+target=&quot;_blank&quot; class=&quot;cta-button&quot;&gt;<span
+style='font-family:"Segoe UI Symbol",sans-serif'>&#127916;</span> Subscribe
+Now&lt;/a&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;/section&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;div class=&quot;container&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;stats&quot;&gt;</p>
+
+<p class=MsoNormal>            &lt;div class=&quot;stat-item&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;div
+class=&quot;stat-number&quot;&gt;1000+&lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;div
+class=&quot;stat-label&quot;&gt;Subscribers&lt;/div&gt;</p>
+
+<p class=MsoNormal>            &lt;/div&gt;</p>
+
+<p class=MsoNormal>            &lt;div class=&quot;stat-item&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;div
+class=&quot;stat-number&quot;&gt;50+&lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;div
+class=&quot;stat-label&quot;&gt;Videos&lt;/div&gt;</p>
+
+<p class=MsoNormal>            &lt;/div&gt;</p>
+
+<p class=MsoNormal>            &lt;div class=&quot;stat-item&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;div
+class=&quot;stat-number&quot;&gt;10K+&lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;div
+class=&quot;stat-label&quot;&gt;Views&lt;/div&gt;</p>
+
+<p class=MsoNormal>            &lt;/div&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;section id=&quot;videos&quot;
+class=&quot;section&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;container&quot;&gt;</p>
+
+<p class=MsoNormal>            &lt;h2 class=&quot;section-title&quot;&gt;Latest
+Videos&lt;/h2&gt;</p>
+
+<p class=MsoNormal>            &lt;div class=&quot;video-grid&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;video-card&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;iframe
+src=&quot;https://www.youtube.com/embed?listType=user_uploads&amp;list=TechnoAvnesh&quot;
+allowfullscreen&gt;&lt;/iframe&gt;</p>
+
+<p class=MsoNormal>                    &lt;div class=&quot;video-info&quot;&gt;</p>
+
+<p class=MsoNormal>                        &lt;h3&gt;Latest Tech
+Tutorials&lt;/h3&gt;</p>
+
+<p class=MsoNormal>                        &lt;p&gt;Check out our newest
+content!&lt;/p&gt;</p>
+
+<p class=MsoNormal>                    &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>            &lt;/div&gt;</p>
+
+<p class=MsoNormal>            &lt;div style=&quot;text-align: center;
+margin-top: 30px;&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;a
+href=&quot;https://www.youtube.com/@TechnoAvnesh/videos&quot;
+target=&quot;_blank&quot; class=&quot;cta-button&quot;&gt;View All
+Videos&lt;/a&gt;</p>
+
+<p class=MsoNormal>            &lt;/div&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;/section&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;section id=&quot;playlists&quot;
+class=&quot;playlist-section&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;container&quot;&gt;</p>
+
+<p class=MsoNormal>            &lt;h2
+class=&quot;section-title&quot;&gt;Featured Playlists&lt;/h2&gt;</p>
+
+<p class=MsoNormal>            &lt;div class=&quot;playlist-grid&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;playlist-card&quot;
+onclick=&quot;window.open('https://www.youtube.com/@TechnoAvnesh/playlists',
+'_blank')&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;h3&gt;<span style='font-family:"Segoe UI Symbol",sans-serif'>&#128241;</span>
+Mobile Tech&lt;/h3&gt;</p>
+
+<p class=MsoNormal>                    &lt;p&gt;Latest smartphone reviews and
+tips&lt;/p&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;playlist-card&quot;
+onclick=&quot;window.open('https://www.youtube.com/@TechnoAvnesh/playlists',
+'_blank')&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;h3&gt;<span style='font-family:"Segoe UI Symbol",sans-serif'>&#128187;</span>
+Computer Tutorials&lt;/h3&gt;</p>
+
+<p class=MsoNormal>                    &lt;p&gt;Master your PC skills&lt;/p&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;playlist-card&quot;
+onclick=&quot;window.open('https://www.youtube.com/@TechnoAvnesh/playlists',
+'_blank')&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;h3&gt;<span style='font-family:"Segoe UI Symbol",sans-serif'>&#128295;</span>
+Tech Tips &amp; Tricks&lt;/h3&gt;</p>
+
+<p class=MsoNormal>                    &lt;p&gt;Hidden features and
+hacks&lt;/p&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;playlist-card&quot;
+onclick=&quot;window.open('https://www.youtube.com/@TechnoAvnesh/playlists',
+'_blank')&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;h3&gt;<span style='font-family:"Segoe UI Symbol",sans-serif'>&#127918;</span>
+Gaming Tech&lt;/h3&gt;</p>
+
+<p class=MsoNormal>                    &lt;p&gt;Gaming hardware and software
+guides&lt;/p&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>            &lt;/div&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;/section&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;section id=&quot;connect&quot;
+class=&quot;social-section&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;container&quot;&gt;</p>
+
+<p class=MsoNormal>            &lt;h2
+class=&quot;section-title&quot;&gt;Connect With Me&lt;/h2&gt;</p>
+
+<p class=MsoNormal>            &lt;p style=&quot;margin-bottom: 40px;
+font-size: 18px; color: #aaa;&quot;&gt;Join our community across all
+platforms&lt;/p&gt;</p>
+
+<p class=MsoNormal>            &lt;div class=&quot;social-grid&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;social-card&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;div
+class=&quot;social-icon&quot;&gt;<span style='font-family:"Segoe UI Symbol",sans-serif'>&#128250;</span>&lt;/div&gt;</p>
+
+<p class=MsoNormal>                    &lt;h3&gt;YouTube&lt;/h3&gt;</p>
+
+<p class=MsoNormal>                    &lt;p&gt;Watch &amp; Subscribe&lt;/p&gt;</p>
+
+<p class=MsoNormal>                    &lt;a
+href=&quot;https://www.youtube.com/@TechnoAvnesh&quot;
+target=&quot;_blank&quot;&gt;@TechnoAvnesh&lt;/a&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;social-card&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;div
+class=&quot;social-icon&quot;&gt;<span style='font-family:"Segoe UI Symbol",sans-serif'>&#128241;</span>&lt;/div&gt;</p>
+
+<p class=MsoNormal>                    &lt;h3&gt;Telegram&lt;/h3&gt;</p>
+
+<p class=MsoNormal>                    &lt;p&gt;Join our group&lt;/p&gt;</p>
+
+<p class=MsoNormal>                    &lt;a href=&quot;#&quot;
+target=&quot;_blank&quot;&gt;t.me/technoavnesh&lt;/a&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;social-card&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;div
+class=&quot;social-icon&quot;&gt;<span style='font-family:"Segoe UI Symbol",sans-serif'>&#128172;</span>&lt;/div&gt;</p>
+
+<p class=MsoNormal>                    &lt;h3&gt;WhatsApp&lt;/h3&gt;</p>
+
+<p class=MsoNormal>                    &lt;p&gt;Channel updates&lt;/p&gt;</p>
+
+<p class=MsoNormal>                    &lt;a href=&quot;#&quot;
+target=&quot;_blank&quot;&gt;Join Channel&lt;/a&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;social-card&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;div
+class=&quot;social-icon&quot;&gt;<span style='font-family:"Segoe UI Symbol",sans-serif'>&#128247;</span>&lt;/div&gt;</p>
+
+<p class=MsoNormal>                    &lt;h3&gt;Instagram&lt;/h3&gt;</p>
+
+<p class=MsoNormal>                    &lt;p&gt;Behind the scenes&lt;/p&gt;</p>
+
+<p class=MsoNormal>                    &lt;a href=&quot;#&quot;
+target=&quot;_blank&quot;&gt;@technoavnesh&lt;/a&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;social-card&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;div
+class=&quot;social-icon&quot;&gt;<span style='font-family:"Segoe UI Symbol",sans-serif'>&#128038;</span>&lt;/div&gt;</p>
+
+<p class=MsoNormal>                    &lt;h3&gt;Twitter&lt;/h3&gt;</p>
+
+<p class=MsoNormal>                    &lt;p&gt;Tech news &amp;
+updates&lt;/p&gt;</p>
+
+<p class=MsoNormal>                    &lt;a href=&quot;#&quot;
+target=&quot;_blank&quot;&gt;@technoavnesh&lt;/a&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;social-card&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;div
+class=&quot;social-icon&quot;&gt;<span style='font-family:"Segoe UI Symbol",sans-serif'>&#128101;</span>&lt;/div&gt;</p>
+
+<p class=MsoNormal>                    &lt;h3&gt;Facebook&lt;/h3&gt;</p>
+
+<p class=MsoNormal>                    &lt;p&gt;Community discussions&lt;/p&gt;</p>
+
+<p class=MsoNormal>                    &lt;a href=&quot;#&quot;
+target=&quot;_blank&quot;&gt;Techno Avnesh&lt;/a&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>            &lt;/div&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;/section&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;footer class=&quot;footer&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;container&quot;&gt;</p>
+
+<p class=MsoNormal>            &lt;p&gt;&amp;copy; 2025 Techno Avnesh. All
+rights reserved.&lt;/p&gt;</p>
+
+<p class=MsoNormal>            &lt;p style=&quot;margin-top: 10px; color:
+#aaa;&quot;&gt;Made with <span style='font-family:"Segoe UI Symbol",sans-serif'>&#128154;</span>
+for the tech community&lt;/p&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;/footer&gt;</p>
+
+<p class=MsoNormal>&lt;/body&gt;</p>
+
+<p class=MsoNormal>&lt;/html&gt;</p>
+
+</div>
+
+</body>
+
+</html>
